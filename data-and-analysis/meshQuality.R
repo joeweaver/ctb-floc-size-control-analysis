@@ -4,7 +4,7 @@
 # Reads: Tidied cfd data ("reactor_*_shear_100_wderivs.csv", "*qual_only.csv")
 #        from: data\CFD exports\SBRs and data\tidied CFD exports\CTBs
 #
-# Outputs: Figure comparing SBR and CTB mesh qualities (Fig. S)
+# Outputs: Figure comparing SBR and CTB mesh qualities (Fig. S10)
 #           file: meshQuality.eps              
 #              
 # Joseph E. Weaver
