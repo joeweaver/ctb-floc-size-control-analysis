@@ -106,7 +106,7 @@ shear_labeller <- function(variable,value){
 
 #plotting as a boxplot sinnce the distributions are the same 
 p <-  ggplot(toPlot, aes(reactor,eqd_um,group=reactor,fill=reactor))
-p <- p + geom_boxplot()
+p <- p + geom_violin()
 p <- p + coord_cartesian(ylim=c(0,100)) + 
    facet_grid(. ~ shear, labeller=shear_labeller) 
 p <-  p + xlab("Reactors, grouped by target mean shear rate") + 
